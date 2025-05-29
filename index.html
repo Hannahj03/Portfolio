@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Maria Hannah Jayme | Virtual Assistant</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       background-color: #fff0f5;
       color: #333;
@@ -15,6 +15,13 @@
       background-color: #ffc0cb;
       padding: 2rem;
       text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
     }
     header h1 {
       margin: 0;
@@ -36,14 +43,23 @@
       font-size: 1rem;
       line-height: 1.6;
     }
-    .contact {
+    .contact, .social {
       margin-top: 2rem;
       font-size: 1rem;
     }
-    .contact a {
+    .contact a, .social a, .resume-link {
       display: block;
       margin: 0.5rem 0;
       color: #d63384;
+      text-decoration: none;
+    }
+    .resume-link {
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin-right: 1rem;
       text-decoration: none;
     }
     footer {
@@ -58,6 +74,7 @@
 <body>
 
   <header>
+    <img src="your-photo.jpg" alt="Maria Hannah Jayme" />
     <h1>Maria Hannah Jayme</h1>
     <p>Virtual Assistant</p>
   </header>
@@ -68,10 +85,20 @@
       I'm a passionate Virtual Assistant/Freelancer who aims to provide excellent administrative support by helping manage business operations on a daily basis. Before becoming a Virtual Assistant, I've worked remotely as an Operations Intake Specialist in a US healthcare account. I've also been in the BPO industry for more than 5 years and have handled both Customer Service and Technical roles. I gained valuable experience with flight bookings and reservations while working in an airport shortly after graduating from college.
     </p>
 
+    <h2>Resume</h2>
+    <a class="resume-link" href="your-resume.pdf" target="_blank">📄 Download My Resume</a>
+
     <h2>Contact</h2>
     <div class="contact">
       <a href="mailto:mariahannahpahugot@yahoo.com">mariahannahpahugot@yahoo.com</a>
       <a href="mailto:hannahj.dstest@gmail.com">hannahj.dstest@gmail.com</a>
+    </div>
+
+    <h2>Social Media</h2>
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">🔗 LinkedIn</a>
+      <a href="https://www.facebook.com/yourprofile" target="_blank">📘 Facebook</a>
+      <a href="https://www.instagram.com/yourprofile" target="_blank">📸 Instagram</a>
     </div>
   </section>
 
